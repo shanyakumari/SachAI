@@ -8,7 +8,7 @@ from dateutil import parser
 from sklearn.preprocessing import StandardScaler
 
 # ✅ Twitter Bearer Token
-BEARER_TOKEN = "AAAAAAAAAAAAAAAAAAAAABe20QEAAAAAHdfYy07%2BuoLde4wtn71VOQMslzw%3DtDWYKC357eNxi63vEiH2ThXY8QG3fivcMFeBrS0xRe3AmKsmei"
+BEARER_TOKEN = process.env.BEARER_TOKEN
 
 # ✅ Load models
 rf_model = joblib.load("fake_account_model.pkl")
