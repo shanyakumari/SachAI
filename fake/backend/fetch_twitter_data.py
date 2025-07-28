@@ -4,7 +4,7 @@ from datetime import datetime
 import time
 
 # ✅ Your Twitter Bearer Token
-BEARER_TOKEN = "AAAAAAAAAAAAAAAAAAAAAF1s0gEAAAAAxbp7XznpeR79vIVcAHXYBUSGlG0%3D8qYZ385ai1j6VE1v2bjPRPjIUixqylDfdRZhz9kjGeVWfMDpV6"
+BEARER_TOKEN =  process.env.BEARER_TOKEN
 
 headers = {
     "Authorization": f"Bearer {BEARER_TOKEN}"
